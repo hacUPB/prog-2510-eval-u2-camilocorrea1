@@ -1,6 +1,7 @@
 # ¿Qué es un computador?
 
 Un computador es una maquina electrónica que es programable con la capacidad de recibir, procesar y almacenar información. La información ya procesada puede ser interpretada por una persona o transmitida a otro sistema electronico.
+
 ![Computador](https://www.bing.com/images/search?view=detailV2&ccid=kY9r7nI2&id=BFE22E4C1B987BBBF91A44F92F5085E581E6FCE2&thid=OIP.kY9r7nI2Eq_UR0IJdSFr8gHaEt&mediaurl=https%3a%2f%2ftomi-digital-resources.storage.googleapis.com%2fimages%2fclasses%2fresources%2frsc-61379-5e8e6c1712a42.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.918f6bee723612afd447420975216bf2%3frik%3d4vzmgeWFUC%252f5RA%26pid%3dImgRaw%26r%3d0&exph=1693&expw=2661&q=que+es+un+computador&simid=607994725304054660&FORM=IRPRST&ck=B07F5025834837F960F900ED5C05D31B&selectedIndex=1&itb=0&ajaxhist=0&ajaxserp=0)
 
 # Arquitecturas de un computador.
@@ -112,6 +113,7 @@ El funcionamiento del GPU es procesar los píxeles y esto consiste en llevar tod
 | Memoria         | VRAM (rápida y dedicada)     | RAM del sistema                 |
 | Velocidad | Alto rendimiento en cálculos paralelos | Mejor en tareas secuenciales|
 
+![CPU vs GPU](https://www.bing.com/images/search?view=detailV2&ccid=CeObvMas&id=7BB0A0195C23A8D1797DEBBE0D8012517EDB3573&thid=OIP.CeObvMasEFW5uUUzrPuKDgHaE-&mediaurl=https%3a%2f%2fwww.redswitches.com%2fwp-content%2fuploads%2f2023%2f05%2fCPU-vs-GPU-1.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.09e39bbcc6ac1055b9b94533acfb8a0e%3frik%3dczXbflESgA2%252b6w%26pid%3dImgRaw%26r%3d0&exph=942&expw=1404&q=CPU+Y+GPU&simid=608016775674337389&FORM=IRPRST&ck=9AC0057C70E541B37583B586797BB795&selectedIndex=1&itb=0&ajaxhist=0&ajaxserp=0)
 
 ## Memoria. 
 
@@ -179,6 +181,8 @@ Este mecanismo es esencial para el flujo de información dentro del sistema, ya 
 El software es un conjunto de programas, datos e instrucciones que permiten ejecutar diversas funciones en un sistema informático. A diferencia del hardware, que es la parte física de un dispositivo, el software es intangible pero fundamental para su funcionamiento.
 Este término se refiere a los programas y procedimientos que permiten a una computadora o dispositivo digital realizar tareas específicas, gestionando y procesando información de manera eficiente.
 
+![Software](https://www.bing.com/images/search?view=detailV2&ccid=y%2bOVMgBK&id=4E534167816A8D0BD0BD17449F5B70CF106DFAD4&thid=OIP.y-OVMgBKIcRbDSIxITjuWgHaF7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.cbe39532004a21c45b0d22312138ee5a%3frik%3d1PptEM9wW59EFw%26riu%3dhttp%253a%252f%252fcomofuncionaque.com%252fwp-content%252fuploads%252f2015%252f03%252fMuchos-de-los-programas-que-utilizamos-tienen-un-software-propio-que-les-ayuda-a-funcionar-correctamente.jpg%26ehk%3d%252fluJ0w0KDCfGk1zom3Ss82vRCSbPykdxxOWfzTHMaok%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=800&expw=1000&q=software+&simid=608040891893423065&FORM=IRPRST&ck=841F2742911FC22640ADFAAC27F4E13F&selectedIndex=9&itb=0&ajaxhist=0&ajaxserp=0)
+
 ## Tipos de software.
 
 ### Software de sistema.
@@ -189,7 +193,6 @@ Es el conjunto de programas y herramientas que permiten que el hardware y otras 
 
 El software de aplicación está diseñado para realizar tareas específicas que ayudan al usuario en su vida diaria o en su trabajo. Ejemplos incluyen procesadores de texto, hojas de cálculo, aplicaciones de diseño, videojuegos y programas de comunicación.
 Los videojuegos, los programas de diseño asistido (como CAD), el software utilizado en las telecomunicaciones, las aplicaciones de productividad empresarial o educativa son algunos ejemplos de este tipo de programas.
-
 
 ### Software de desarrollo.
 
@@ -226,13 +229,13 @@ Este proceso, llamado ciclo de procesamiento de la información, permite que las
 - Se ejecuta un programa almacenado en una memoria no volátil, que activa componentes esenciales como el controlador de interrupciones.
 - El contador de programa (PC) avanza secuencialmente, ejecutando cada instrucción en orden.
 
-3. Startup Code
+3. Startup Code.
 
 - Se ejecuta el código de inicio, que realiza el autodiagnóstico POST (Power-On Self-Test).
 - Se verifican componentes como la memoria RAM, la GPU, el teclado y otros periféricos.
 - Si se detectan fallos, se muestran mensajes de error o se emiten pitidos de advertencia.
 
-4. Bootstrap
+4. Bootstrap.
 
 - Se carga el gestor de arranque (bootloader), como GRUB, LiLo o Windows Loader, para iniciar el sistema operativo.
 - Si no se encuentra un medio de inicio válido, se muestra el mensaje "No boot device available".
@@ -283,7 +286,11 @@ Las unidades de medida de datos en un computador son:
 - Gigabyte (GB): Es igual a 1024 Megabytes.
 - Terabyte (TB): Lo componen 1024 Gigabytes.
 
-## Referencias. 
+# Mapa conceptual.
+
+![Mapa](<Captura de pantalla 2025-02-05 183627.png>)
+
+# Referencias. 
 
 [Concepto de computadora](https://concepto.de/computadora/)
 [Arquitectura de un computador](https://www.ecured.cu/Arquitectura_de_computadoras)
