@@ -2,7 +2,7 @@
 
 Un computador es una maquina electrónica que es programable con la capacidad de recibir, procesar y almacenar información. La información ya procesada puede ser interpretada por una persona o transmitida a otro sistema electronico.
 
-![Computador](https://www.bing.com/images/search?view=detailV2&ccid=kY9r7nI2&id=BFE22E4C1B987BBBF91A44F92F5085E581E6FCE2&thid=OIP.kY9r7nI2Eq_UR0IJdSFr8gHaEt&mediaurl=https%3a%2f%2ftomi-digital-resources.storage.googleapis.com%2fimages%2fclasses%2fresources%2frsc-61379-5e8e6c1712a42.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.918f6bee723612afd447420975216bf2%3frik%3d4vzmgeWFUC%252f5RA%26pid%3dImgRaw%26r%3d0&exph=1693&expw=2661&q=que+es+un+computador&simid=607994725304054660&FORM=IRPRST&ck=B07F5025834837F960F900ED5C05D31B&selectedIndex=1&itb=0&ajaxhist=0&ajaxserp=0)
+![Computador](https://tomi-digital-resources.storage.googleapis.com/images/classes/resources/rsc-61379-5e8e6c1712a42.jpeg)
 
 # Arquitecturas de un computador.
 
@@ -14,7 +14,7 @@ Es el diseño y estructura básica de un sistema informático. Se encarga de def
 
 La arquitectura CISC (Complex instruction set computing) minimiza la cantidad de instrucciones de un software y se ignora el número de ciclos por instrucción. CISC tiene un gran conjunto de instrucciones complejas con un tiempo de ejecución mas largo.
 
-![CISC](https://www.bing.com/images/search?view=detailV2&ccid=L2wFRm15&id=FA17598F27F5CAEFC4603770E8135D6D477B28C3&thid=OIP.L2wFRm15UQIAAUlKztAF4AHaIR&mediaurl=https%3a%2f%2f1.bp.blogspot.com%2f-Sav1VtMPCtw%2fX-vDAuwZZKI%2fAAAAAAAAFbQ%2fOpNChcN_wcsg08kBpAnmKxuPNINx5nq2ACLcBGAsYHQ%2fs1520%2fCISC.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.2f6c05466d7951020001494aced005e0%3frik%3dwyh7R21dE%252bhwNw%26pid%3dImgRaw%26r%3d0&exph=1520&expw=1360&q=arquitectura+cisc&simid=608009963876072114&FORM=IRPRST&ck=795DADA44B5E6AD150AE739E696B7EB9&selectedIndex=0&itb=1&ajaxhist=0&ajaxserp=0)
+![CISC](https://1.bp.blogspot.com/-Sav1VtMPCtw/X-vDAuwZZKI/AAAAAAAAFbQ/OpNChcN_wcsg08kBpAnmKxuPNINx5nq2ACLcBGAsYHQ/s1520/CISC.png)
 
 #### ¿Cómo está construida?
 
@@ -44,7 +44,7 @@ La arquitectura CISC (Complex instruction set computing) minimiza la cantidad de
 
 La arquitectura RISC (Reduced Instruction Set Computing)  es un modelo de diseño de procesadores basado en un conjunto reducido de instrucciones. Su objetivo principal es mejorar el rendimiento simplificando las instrucciones y optimizando la ejecución en hardware.
 
-![RISC](https://www.bing.com/images/search?view=detailV2&ccid=8BDMKN%2bR&id=1613F078E05DAC8E079B951798430F65914FCE09&thid=OIP.8BDMKN-Rxzk-FM8kwjyRyAHaHv&mediaurl=https%3a%2f%2f1.bp.blogspot.com%2f-dnZLaLUY0OY%2fX-vE8wZc_jI%2fAAAAAAAAFbg%2fslSn3NFCxBMxS2Tyz57NSJKiGNZgAQwHACLcBGAsYHQ%2fs1380%2fRisc.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.f010cc28df91c7393e14cf24c23c91c8%3frik%3dCc5PkWUPQ5gXlQ%26pid%3dImgRaw%26r%3d0&exph=1380&expw=1320&q=arquitectura+cisc&simid=607996030960017607&FORM=IRPRST&ck=B492D0458EE5717D8D2A11BCDF301E0D&selectedIndex=2&itb=1&ajaxhist=0&ajaxserp=0)
+![RISC](https://1.bp.blogspot.com/-dnZLaLUY0OY/X-vE8wZc_jI/AAAAAAAAFbg/slSn3NFCxBMxS2Tyz57NSJKiGNZgAQwHACLcBGAsYHQ/s1380/Risc.png)
 
 #### ¿Como está construida?
 
@@ -74,7 +74,7 @@ La arquitectura RISC (Reduced Instruction Set Computing)  es un modelo de diseñ
 
 El hardware es la parte física de una computadora o sistema informático. Incluye todos los componentes eléctricos, electrónicos, mecánicos y electromecánicos, como circuitos, cables, placas, memorias, discos duros y dispositivos periféricos. En general, abarca cualquier elemento físico esencial para el funcionamiento del equipo.
 
-![Hardware](https://www.bing.com/images/search?view=detailV2&ccid=Hbmogdgb&id=49DF9F43763FEE4BE6604FC9E07D7ACD5AA57BC0&thid=OIP.HbmogdgbRnpqX8398NDYnwHaE8&mediaurl=https%3a%2f%2fwww.lifewire.com%2fthmb%2f-HqTo5VoM4OZ_vZswOECJl62ZwU%3d%2f3000x2000%2ffilters%3ano_upscale()%3amax_bytes(150000)%3astrip_icc()%2fcomputer-hardware-2625895-final-v1-8c909b8a32434e26a225db2314823bb2.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.1db9a881d81b467a6a5fcdfdf0d0d89f%3frik%3dwHulWs16feDJTw%26pid%3dImgRaw%26r%3d0&exph=2000&expw=3000&q=hardware&simid=608053321538874513&FORM=IRPRST&ck=65D473F68E31881BA01D0BA9DCB95987&selectedIndex=1&itb=0&ajaxhist=0&ajaxserp=0)
+![Hardware](https://www.lifewire.com/thmb/-HqTo5VoM4OZ_vZswOECJl62ZwU=/3000x2000/filters:no_upscale():max_bytes(150000):strip_icc()/computer-hardware-2625895-final-v1-8c909b8a32434e26a225db2314823bb2.jpg)
 
 ## CPU. 
 
@@ -113,7 +113,7 @@ El funcionamiento del GPU es procesar los píxeles y esto consiste en llevar tod
 | Memoria         | VRAM (rápida y dedicada)     | RAM del sistema                 |
 | Velocidad | Alto rendimiento en cálculos paralelos | Mejor en tareas secuenciales|
 
-![CPU vs GPU](https://www.bing.com/images/search?view=detailV2&ccid=CeObvMas&id=7BB0A0195C23A8D1797DEBBE0D8012517EDB3573&thid=OIP.CeObvMasEFW5uUUzrPuKDgHaE-&mediaurl=https%3a%2f%2fwww.redswitches.com%2fwp-content%2fuploads%2f2023%2f05%2fCPU-vs-GPU-1.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.09e39bbcc6ac1055b9b94533acfb8a0e%3frik%3dczXbflESgA2%252b6w%26pid%3dImgRaw%26r%3d0&exph=942&expw=1404&q=CPU+Y+GPU&simid=608016775674337389&FORM=IRPRST&ck=9AC0057C70E541B37583B586797BB795&selectedIndex=1&itb=0&ajaxhist=0&ajaxserp=0)
+![CPU vs GPU](https://www.redswitches.com/wp-content/uploads/2023/05/CPU-vs-GPU-1.jpg)
 
 ## Memoria. 
 
@@ -181,7 +181,7 @@ Este mecanismo es esencial para el flujo de información dentro del sistema, ya 
 El software es un conjunto de programas, datos e instrucciones que permiten ejecutar diversas funciones en un sistema informático. A diferencia del hardware, que es la parte física de un dispositivo, el software es intangible pero fundamental para su funcionamiento.
 Este término se refiere a los programas y procedimientos que permiten a una computadora o dispositivo digital realizar tareas específicas, gestionando y procesando información de manera eficiente.
 
-![Software](https://www.bing.com/images/search?view=detailV2&ccid=y%2bOVMgBK&id=4E534167816A8D0BD0BD17449F5B70CF106DFAD4&thid=OIP.y-OVMgBKIcRbDSIxITjuWgHaF7&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.cbe39532004a21c45b0d22312138ee5a%3frik%3d1PptEM9wW59EFw%26riu%3dhttp%253a%252f%252fcomofuncionaque.com%252fwp-content%252fuploads%252f2015%252f03%252fMuchos-de-los-programas-que-utilizamos-tienen-un-software-propio-que-les-ayuda-a-funcionar-correctamente.jpg%26ehk%3d%252fluJ0w0KDCfGk1zom3Ss82vRCSbPykdxxOWfzTHMaok%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=800&expw=1000&q=software+&simid=608040891893423065&FORM=IRPRST&ck=841F2742911FC22640ADFAAC27F4E13F&selectedIndex=9&itb=0&ajaxhist=0&ajaxserp=0)
+![Software](https://th.bing.com/th/id/R.cbe39532004a21c45b0d22312138ee5a?rik=1PptEM9wW59EFw&riu=http%3a%2f%2fcomofuncionaque.com%2fwp-content%2fuploads%2f2015%2f03%2fMuchos-de-los-programas-que-utilizamos-tienen-un-software-propio-que-les-ayuda-a-funcionar-correctamente.jpg&ehk=%2fluJ0w0KDCfGk1zom3Ss82vRCSbPykdxxOWfzTHMaok%3d&risl=&pid=ImgRaw&r=0)
 
 ## Tipos de software.
 
