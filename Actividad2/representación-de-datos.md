@@ -88,13 +88,13 @@ Tabla comparativa con los principales tipos de datos en **C, Java y Python**:
 
 # Ejercicio 5.
 
-|  Int  |  float  |  bool  |  string  |
+|  **Int**  |  **float**  |  **bool**  |  **string**  |
 |-------|---------|--------|----------|
 |  4B   |   4B    |   1B   |    10B   |
 
 19B por 10 segundos
 
-60*60 = 3.600; 3.600*24 = 86.400; 86.400/10 = 8.640; 8.640*19B = 164,160B
+60 * 60 = 3.600; 3.600 * 24 = 86.400; 86.400/10 = 8.640; 8.640 * 19B = 164,160B
 
 De B a KB; 164,160B * 1024B = 168.099.840KB
 
