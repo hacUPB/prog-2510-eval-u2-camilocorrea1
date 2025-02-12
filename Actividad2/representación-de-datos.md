@@ -86,3 +86,21 @@ Tabla comparativa con los principales tipos de datos en **C, Java y Python**:
 | **Conjuntos**    | Colección de elementos únicos             | No disponible         | `Set`                 | `set`               |
 | **Diccionarios** | Clave-valor (hashmaps)                    | No disponible         | `HashMap`             | `dict`              |
 
+# Ejercicio 5.
+
+|  Int  |  float  |  bool  |  string  |
+|-------|---------|--------|----------|
+|  4B   |   4B    |   1B   |    10B   |
+
+19B por 10 segundos
+
+60*60 = 3.600; 3.600*24 = 86.400; 86.400/10 = 8.640; 8.640*19B = 164,160B
+
+De B a KB; 164,160B * 1024B = 168.099.840KB
+
+# Ejercicio 6.
+
+La representación binaria es la base de la computación, permitiendo el almacenamiento, procesamiento y manipulación eficiente de datos a través de la lógica booleana, sistemas numéricos y estructuras de datos en distintos lenguajes de programación.
+
+
+
