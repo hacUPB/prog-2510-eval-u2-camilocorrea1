@@ -92,7 +92,190 @@ Si no
 Escribir "precio total" precio
 Fin
 
+# Ejercicios libro algoritmos.
 
+1) 
 
+Inicio 
+sal_ini = 1500
+incre_anual = 0.10
+desde cont = 1 hasta cont = 6
+	aumento = sal_ini*incre_anual
+	sal_ini = sal_ini + aumento
+    escribir salario anual de, sal_ini
+fin mientras
+escribir salario al cabo de 6 años, sal_ini
+Fin
+
+2) 
+
+Inicio
+precio_S = 20
+precio_D = 25
+precio_T = 28
+cargo_tarjeta = 0.05
+total_pagar = 0
+cont = 1
+Escribir "Ingrese el número de hamburguesas a comprar: "
+leer NH
+Mientras cont <= NH
+    Escribir "Ingrese el tipo de hamburguesa (S, D, T) para la hamburguesa: "
+    Leer tipo
+    Si tipo = "S" Entonces
+        total_pagar = total_pagar + PRECIO_S
+        cont = cont + 1
+    Sino 
+        Si tipo = "D" Entonces
+            total_pagar ← total_pagar + PRECIO_D
+            cont = cont + 1
+        Sino
+            Si tipo = "T" Entonces
+                total_pagar ← total_pagar + PRECIO_T
+                cont = cont + 1
+            Sino
+                Escribir "Tipo inválido. Por favor, ingrese S, D o T."
+    Fin Si
+Fin Mientras
+Escribir "¿Pagará con tarjeta? (si/No)"
+Leer pago_tarjeta
+Si pago_tarjeta = "si" Entonces
+    total_pagar = total_pagar + (total_pagar * cargo_tarjeta)
+si no
+    si pago_tarjeta == 'no':
+        total_pagar == total_pagar
+    si no
+        print("Ingrese si o no")
+Fin Si
+Escribir "El total a pagar es: $", total_pagar
+Fin
+
+# Parte 1: Identificar Algoritmos.
+
+1) Una página web.
+
+No representa un algoritmo. 
+Una página web es un sitio web que puede contener información, pero en sí misma no define un conjunto de pasos claros para resolver un algoritmo.
+
+2) Receta para hacer un pastel, donde se indican ingredientes y pasos a seguir.
+
+Sí representa un algoritmo. 
+Una receta es un algoritmo, ya que ofrece una serie de pasos ordenados y específicos que, producen un resultado esperado.
+
+3) "Piensa en un número y multiplícalo por otro".
+
+No representa un algoritmo completo. 
+Este sugiere una operación, no es un algoritmo porque no es del todo claro o preciso, ya que no indica qué números usar ni qué hacer después.
+
+4) Un manual de instrucciones para armar un mueble, con pasos detallados y un orden claro.
+
+Sí representa un algoritmo. 
+El manual da instrucciones claras, detalladas y secuenciales para lograr un objetivo específico, lo que lo convierte en un algoritmo.
+
+5) Una lista de compras organizada en orden alfabético.
+
+No representa un algoritmo. 
+Una lista de compras es solo un conjunto de datos organizados. No incluye pasos o instrucciones para resolver un problema o alcanzar un objetivo.
+
+# Parte 2: Variables y Constantes.
+
+1) El valor de la gravedad en la Tierra, 9.8 m/s².
+
+Constante. 
+Este valor no cambia, por lo que es una constante.
+
+2) La edad de una persona calculada en base al año actual y su año de nacimiento.
+
+Variable. 
+La edad cambia con el pasar del tiempo, por lo que es un valor variable.
+
+3) La cantidad de dinero en una cuenta bancaria.
+
+Variable. 
+El saldo puede aumentar o disminuir debido a depósitos, retiros, lo que lo convierte en una variable.
+
+4) La velocidad de la luz en el vacío, 299,792,458 m/s.
+
+Constante. 
+Este valor es una constante y no cambia.
+
+5) El radio de un círculo.
+
+Variable. 
+Depende del círculo que se esté considerando, por lo que puede variar su radio.
+
+# Parte 3: Características de los Algoritmos.
+
+1) Para elegir la ruta más corta entre varias ciudades, el algoritmo examina rutas candidatas, deteniéndose cuando los cambios en la distancia parecen lo suficientemente pequeños.
+
+No cumple con todas las características de un algoritmo. 
+Aunque el proceso tiene un objetivo claro, carece de finitud y precisión. Detenerse cuando los cambios "parecen lo suficientemente pequeños" es ambiguo, lo que impide que el algoritmo sea realizado correctamente.
+
+2) Suma los números ingresados y muestra el resultado.
+
+Cumple con las características de un algoritmo.
+El proceso es claro, finito y preciso. Se definen pasos específicos (sumar y mostrar el resultado), lo que lo convierte en un algoritmo.
+
+3) Un conjunto de pasos para calcular el área de un rectángulo dado su base y altura.
+
+Cumple con las características de un algoritmo.
+Es un proceso finito, definido y con un resultado claro. Se especifican los datos de entrada (base y altura) y la operación necesaria para obtener el área.
+
+4) El algoritmo cuenta el número de votos obtenidos por cada uno de los candidatos de una elección para presidente. Empieza solicitando el nombre del candidato y finaliza cuando se ingresa el valor -1.
+
+Cumple con las características de un algoritmo.
+El algoritmo tiene un inicio claro, sigue pasos bien definidos y termina al recibir un valor de parada (-1), asegurando finitud y precisión.
+
+# Parte 4: Comprensión de Herramientas.
+
+1) El pseudocódigo utiliza símbolos estándar para representar las operaciones lógicas.
+
+Falso.
+El pseudocódigo se basa en descripciones textuales claras y estructuradas, sin utilizar símbolos gráficos estandarizados (a diferencia de los diagramas de flujo).
+
+2) Los diagramas de flujo son una representación gráfica de un algoritmo.
+
+Cierto.
+Los diagramas de flujo usan símbolos estandarizados (óvalos, rectángulos, rombos, etc.) y flechas para representar visualmente el flujo de un algoritmo.
+
+3) El pseudocódigo debe estar escrito en un lenguaje de programación específico.
+
+Falso.
+El pseudocódigo es independiente de cualquier lenguaje de programación. Se utiliza para describir algoritmos de manera clara y sencilla, sin preocuparse por el lenguaje.
+
+4) Un diagrama de flujo siempre debe tener un inicio y un fin claramente definidos.
+
+Cierto.
+Todo diagrama de flujo debe tener un punto de inicio y otro de fin para representar adecuadamente el flujo completo del algoritmo y asegurar su finitud.
+
+# Parte 5: Estructuras de Control.
+
+1) ¿Para qué sirven las estructuras de control?
+
+Las estructuras de control permiten definir el flujo de ejecución de un algoritmo o programa. Determinan cómo y cuándo se ejecutan ciertas instrucciones, permitiendo la toma de decisiones, la repetición de procesos y la organización lógica del código.
+
+## Ejemplo 1 (vida diaria).
+
+Que ropa usar según el clima
+Inicio
+    Si está soleado
+        Usa ropa comoda y protectora contra los rayos del sol
+    Sino 
+        si hace frío
+            usa abrigo
+        Sino
+            si llueve
+                usa impermeable y paraguas
+    fin si
+Fin
+
+## Ejemplo 2 (calculos)
+
+Saber si un estudiante aprueba una materia
+Inicio
+Si (promedio_final >= 3.0)  
+    Entonces mostrar "Aprobado"  
+Sino  
+    Mostrar "Reprobado" 
+Fin 
 
 
