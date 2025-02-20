@@ -63,7 +63,8 @@ Escribir "el costo de los lapices es de: $",CT
 Fin
 
 2) Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá.
- 
+
+´´
 Inicio
 Leer CMP       # CMP = valor de compra
 Si CMP > 250000
@@ -74,7 +75,7 @@ Fin si
 PF = CMP - Ds   # PF = precio final
 Escribir "Precio final de la compra de $" PF "con un descuento aplicado de" Ds
 Fin
-
+´´
 3) El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65.00; de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos de 30, el costo de la renta del autobús es de $4000.00, sin importar el número de alumnos.
 
 Inicio 
@@ -121,15 +122,15 @@ leer NH
 Mientras cont <= NH
     Escribir "Ingrese el tipo de hamburguesa (S, D, T) para la hamburguesa: "
     Leer tipo
-    Si tipo = "S" Entonces
+    Si tipo = "S" 
         total_pagar = total_pagar + PRECIO_S
         cont = cont + 1
     Sino 
-        Si tipo = "D" Entonces
+        Si tipo = "D" 
             total_pagar ← total_pagar + PRECIO_D
             cont = cont + 1
         Sino
-            Si tipo = "T" Entonces
+            Si tipo = "T" 
                 total_pagar ← total_pagar + PRECIO_T
                 cont = cont + 1
             Sino
