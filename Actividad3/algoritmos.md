@@ -266,6 +266,8 @@ Las estructuras de control permiten definir el flujo de ejecución de un algorit
 ## Ejemplo 1 (vida diaria).
 
 Que ropa usar según el clima
+
+``
 Inicio
     Si está soleado
         Usa ropa comoda y protectora contra los rayos del sol
@@ -277,15 +279,18 @@ Inicio
                 usa impermeable y paraguas
     fin si
 Fin
+``
 
 ## Ejemplo 2 (calculos)
 
 Saber si un estudiante aprueba una materia
+
+``
 Inicio
 Si (promedio_final >= 3.0)  
     Entonces mostrar "Aprobado"  
 Sino  
     Mostrar "Reprobado" 
 Fin 
-
+``
 
