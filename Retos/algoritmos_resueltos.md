@@ -46,7 +46,7 @@ Fin
 
 # Problemas
 
-1) Se requiere obtener la distancia entre dos puntos en el plano cartesiano.
+1) Se requiere obtener la distancia entre dos puntos en el plano cartesiano. Realice un diagrama de flujo y pseudocódigo que representen el algoritmo para obtener la distancia entre esos puntos.
 
 ```
 Inicio 
@@ -58,6 +58,8 @@ distancia = sqrt(cateto1*cateto1+cateto2*cateto2)
 escribir distancia
 Fin
 ```
+![diagrama de flujo](reto1.png)
+
 
 2) Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.
 Para cada pedido, tiene que proporcionar las medidas de la tela
@@ -73,6 +75,7 @@ pulgadas = 0.0254*medidas
 escriba " las medidas de la tele son", pulgadas
 Fin
 ```
+![diagrama de flujo](reto2.png)
 
 3) Se requiere determinar la hipotenusa de un triángulo rectángulo. ¿Cómo sería el diagrama de flujo y el pseudocódigo que representen el algoritmo para obtenerla? 
 
@@ -84,6 +87,7 @@ hipotenusa = sqrt(cateto1*cateto1+cateto2*cateto2)
 escribir " la hipotenusa del triangulo es", hipotenusa
 Fin
 ```
+![diagrama de flujo](reto3.png)
 
 4) Se requiere determinar la edad actual de una persona basándose en su fecha de nacimiento. Además, es necesario establecer si la persona ya ha cumplido años en el año en curso, si aún no lo ha hecho, o si hoy es su cumpleaños, para celebrarlo. La fecha de nacimiento y la fecha actual estarán representadas mediante tres variables: día, mes y año.
 
@@ -217,6 +221,54 @@ escriba("El costo total por todos los articulos es de {costo_total}")
 Fin
 ```
 
-9) 
+9) Realice un algoritmo y represéntelo mediante pseudocódigo para obtener una función exponencial, la cual está dada por:
+    
+    $𝑒^𝑥 = 1+\frac x {1!} + \frac {x^2}{2!}+ \frac {x^3}{3!}+ …$
 
+```
+Inicio
+escriba("ingrese el valor de la exponente: ")
+escriba("ingrese cuantas datos desea realizar sumar: ")
+leer x_valor, num_evaluar
+cont = 1
+exponencial = 1
+factorial = 1
+resultado = 1
+mientras cont <= num_evaluar:
+    exponencial *= x_valor
+    factorial *= cont
+    resultado = resultado + (exponencial/factorial)
+    cont +=1
+fin mientras
+escriba(resultado)
+Fin
+```
 
+10) Realice un algoritmo para obtener el seno de un ángulo y represéntelo mediante pseudocódigo. Utilice la siguiente ecuación:
+
+$Sen x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ...$
+
+```
+Inicio
+escriba("Ingrese el seno en grados: ")
+escriba("Ingrese cuántos términos desea sumar: ")
+leer x_valor, num_evaluar
+x_rad = x_valor * (pi / 180)
+cont = 1
+exponencial = 1
+seno = 0
+signo = 1
+factorial = 1
+mientras cont <= num_evaluar:
+    si cont > 1:
+        factorial = factorial * exponencial * (exponencial - 1)
+    fin si
+    término = (x_rad ** exponencial) / factorial
+    seno = seno + (signo * término)
+    signo = signo * -1
+    exponencial = exponencial + 2
+    cont += 1
+fin mientras
+escriba("El seno de {x_valor} es: {seno}")
+Fin
+```
