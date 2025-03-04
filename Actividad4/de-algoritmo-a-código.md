@@ -1,4 +1,4 @@
-# ejercicios de pseudocodigo a python
+# Ejercicios de pseudocodigo a python
 
 1) Se requiere obtener la distancia entre dos puntos en el plano cartesiano.
 
